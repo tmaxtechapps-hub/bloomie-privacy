@@ -4,99 +4,30 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Bloomie — Privacy Policy</title>
+  <script>
+    (function () {
+      var langs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
+      var lang = String(langs[0]).toLowerCase().startsWith('ro') ? 'ro' : 'en';
+      location.replace('privacy-policy-' + lang + '.html' + location.hash);
+    })();
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=privacy-policy-en.html" /></noscript>
   <style>
+    :root { --text: #1a1a1a; --bg: #ffffff; --link: #6366F1; }
+    @media (prefers-color-scheme: dark) {
+      :root { --text: #e6e6ef; --bg: #0F0F1A; --link: #A5A8FF; }
+    }
     body { font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-           max-width: 760px; margin: 0 auto; padding: 32px 20px; line-height: 1.6; color: #1a1a1a; }
-    h1 { font-size: 1.9rem; margin-bottom: 0.2em; }
-    h2 { font-size: 1.25rem; margin-top: 1.8em; }
-    .meta { color: #666; font-size: 0.9rem; }
-    code { background: #f4f4f5; padding: 1px 5px; border-radius: 4px; }
-    a { color: #6366F1; }
+           max-width: 760px; margin: 0 auto; padding: 32px 20px; line-height: 1.6;
+           color: var(--text); background: var(--bg); }
+    a { color: var(--link); }
   </style>
 </head>
 <body>
-  <h1>Privacy Policy for Bloomie</h1>
-  <p class="meta">Last updated: 21 July 2026</p>
-
-  <p>Bloomie ("the app", "we", "us") is a habit and goal tracking application. This Privacy
-  Policy explains how the app handles your information. Your privacy is important to us, and
-  Bloomie is designed to keep your data private and entirely on your own device.</p>
-
-  <h2>Summary</h2>
-  <p><strong>All the content you create in Bloomie stays on your device</strong> — the app has no
-  user accounts and no servers of our own, and we do not sell your data. The one exception is
-  advertising: the free version of Bloomie shows ads through Google AdMob, which collects certain
-  device and advertising identifiers to serve and measure those ads. Purchasing Bloomie Premium
-  removes all ads. See the "Advertising" section below for details.</p>
-
-  <h2>Information We Store on Your Device</h2>
-  <p>All data you enter is stored locally on your device using an on-device database and is never
-  sent to us or any third party. This includes:</p>
+  <h1>Bloomie</h1>
   <ul>
-    <li>Habits, goals, and bucket list items you create</li>
-    <li>Completion logs, streaks, notes, journal entries, and budgets</li>
-    <li>Achievements, points, levels, and app preferences (such as theme and language)</li>
-    <li>Any photos or images you attach to items (stored only on your device)</li>
+    <li><a href="privacy-policy-en.html">Privacy Policy</a> · <a href="terms-of-service-en.html">Terms of Use</a></li>
+    <li><a href="privacy-policy-ro.html">Politica de confidențialitate</a> · <a href="terms-of-service-ro.html">Termeni de utilizare</a></li>
   </ul>
-  <p>Because this data lives only on your device, it is removed when you delete the app or clear
-  its data. We have no access to it and cannot recover it for you.</p>
-
-  <h2>Permissions the App Uses</h2>
-  <ul>
-    <li><strong>Notifications:</strong> to show local reminders you schedule for your habits and
-        goals. These reminders are generated on your device; no reminder data leaves your device.</li>
-    <li><strong>Photos / Media (optional):</strong> only used if you choose to save a shareable
-        image (for example, an achievement card) to your device's photo gallery. The app does not
-        read, upload, or scan your photo library.</li>
-    <li><strong>Exact alarms / Boot completed:</strong> to reliably deliver scheduled reminders at
-        the correct time, including after your device restarts.</li>
-    <li><strong>Vibrate:</strong> for haptic feedback within the app.</li>
-  </ul>
-
-  <h2>Sharing Content</h2>
-  <p>Bloomie lets you share images or content you create using your device's standard share
-  feature. When you choose to share, you select the destination app (for example, a messaging or
-  social app). That action is initiated entirely by you, and the receiving app's own privacy
-  policy then applies. Bloomie does not transmit this content on its own.</p>
-
-  <h2>Advertising</h2>
-  <p>The free version of Bloomie displays ads using <strong>Google AdMob</strong>. To serve and
-  measure ads, AdMob and its ad partners may collect and process certain information, including
-  your device's advertising identifier, IP address, and general device information. This data is
-  processed by Google as a third party under its own privacy policy
-  (<a href="https://policies.google.com/privacy">policies.google.com/privacy</a>) and, for
-  advertising specifically, <a href="https://policies.google.com/technologies/ads">Google's
-  advertising policies</a>.</p>
-  <p><strong>Consent:</strong> where required by law (for example, for users in the European
-  Economic Area, the United Kingdom, and Switzerland), Bloomie presents a consent request before
-  ads are loaded, using Google's User Messaging Platform. You can decline or, where offered,
-  choose non-personalized ads. Ads are not requested until this consent step has completed.</p>
-  <p><strong>Removing ads:</strong> purchasing <strong>Bloomie Premium</strong> (a one-time
-  in-app purchase) removes all advertising, after which no advertising identifiers are collected
-  by the app.</p>
-
-  <h2>Data Collection and Other Third Parties</h2>
-  <p>Apart from the AdMob advertising described above, Bloomie contains no analytics SDKs and no
-  other third-party trackers, and does not use cookies. We do not maintain servers that receive
-  your habit, goal, or bucket list data — that content never leaves your device.</p>
-
-  <h2>Children's Privacy</h2>
-  <p>Bloomie is intended for adults (18 and over) and is not directed at children. We do not
-  knowingly collect personal information from children. Because the app shows ads to free users,
-  it is not designed or intended for use by children, and the advertising described above should
-  not be presented to them.</p>
-
-  <h2>Purchases</h2>
-  <p>If Bloomie offers an in-app purchase, the transaction is handled entirely by the Google Play
-  billing system. Bloomie does not receive or store your payment details. Please refer to Google's
-  privacy policy for information about how payment data is processed.</p>
-
-  <h2>Changes to This Policy</h2>
-  <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page
-  with an updated "Last updated" date.</p>
-
-  <h2>Contact Us</h2>
-  <p>If you have any questions about this Privacy Policy, contact us at:
-  <a href="mailto:tmaxtech.apps@gmail.com">tmaxtech.apps@gmail.com</a></p>
 </body>
 </html>
